@@ -1596,6 +1596,13 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
+"@types/path-to-regexp@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@types/path-to-regexp/-/path-to-regexp-1.7.0.tgz#f1af9d9c9db5f8ad80aa75ed424db665c48d6cd4"
+  integrity sha1-8a+dnJ21+K2AqnXtQk22ZcSNbNQ=
+  dependencies:
+    path-to-regexp "*"
+
 "@types/prop-types@*":
   version "15.7.3"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
@@ -7503,6 +7510,11 @@ path-parse@^1.0.6:
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
 
+path-to-regexp@*, path-to-regexp@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-6.1.0.tgz#0b18f88b7a0ce0bfae6a25990c909ab86f512427"
+  integrity sha512-h9DqehX3zZZDCEm+xbfU0ZmwCGFCAAraPJWMXJ4+v32NjZJilVg3k1TcKsRgIb8IQ/izZSaydDc1OhJCZvs2Dw==
+
 path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
@@ -8612,6 +8624,11 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-router-ts@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/react-router-ts/-/react-router-ts-1.6.1.tgz#a386ebb5066d08579443bb057c98644f81c3e09f"
+  integrity sha512-A5F5dQ9ckWo/4K+aUkbmILIA68w/lIPVLUoEK6JGjctirzptMkoJ2IZJD+NKyKKHnYO7fLh+n9kNac6jb8tlmw==
 
 react-scripts@3.4.3:
   version "3.4.3"
@@ -10142,10 +10159,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@~3.7.2:
-  version "3.7.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
-  integrity sha512-/P5lkRXkWHNAbcJIiHPfRoKqyd7bsyCma1hZNUGfn20qm64T6ZBlrzprymeu918H+mB/0rIg2gGK/BXkhhYgBw==
+typescript@^3.9.7:
+  version "3.9.7"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
+  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
