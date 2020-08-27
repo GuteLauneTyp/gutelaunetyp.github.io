@@ -23,7 +23,9 @@ function NavigationItem(props: NavigationItemProps) {
       onClick={routeLink.onClick}
       style={style}
     >
-      <span>{props.children}</span>
+      <span>
+        {props.children}
+      </span>
     </div>
   );
 }
