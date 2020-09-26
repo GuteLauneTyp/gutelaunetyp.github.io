@@ -10,13 +10,25 @@ import dataSecurityPage from "../pages/dataSecurityPage";
 import contactPage from "../pages/contactPage";
 import defaultPage from "../pages/defaultPage";
 import {LangDE} from "./langDE";
+import {AppRouteInterface} from "../helper/types";
 
-export const routes = {
+export type AppRouteNames = "twitch" |
+  "podcasts" |
+  "videos" |
+  "socialMedia" |
+  "projects" |
+  "patreon"
+
+export type AppRoutesInterface = {
+  [key in AppRouteNames | string]: AppRouteInterface
+}
+
+export const routes: AppRoutesInterface = {
   start: {href: "/", title: LangDE.startTitle, component: startPage},
   twitch: {href: "/twitch", title: LangDE.twitchTitle, component: twitchPage},
   podcasts: {href: "/podcasts", title: LangDE.podcastsTitle, component: podcastPage},
-  videos: {href: "/videos", title:LangDE.videosTitle, component: videoPage},
-  socialMedia: {href: "/social-media", title:LangDE.socialMediaTitle, component: socialMediaPage},
+  videos: {href: "/videos", title: LangDE.videosTitle, component: videoPage},
+  socialMedia: {href: "/social-media", title: LangDE.socialMediaTitle, component: socialMediaPage},
   projects: {href: "/projects", title: LangDE.projectsTitle, component: projectPage},
   patreon: {href: "/patreon", title: LangDE.patreonTitle, component: patreonPage},
   impressum: {href: "/impressum", title: LangDE.impressumTitle, component: impressumPage},

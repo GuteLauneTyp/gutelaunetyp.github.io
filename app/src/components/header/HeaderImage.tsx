@@ -4,6 +4,7 @@ import {useRouter} from "react-router-ts";
 import {routes} from "../config/routes";
 import startbanner from "../../images/banner1024.png"
 import banner2 from "../../images/bunner_2_1024.png"
+import '../../css/HeaderImage.css';
 
 function HeaderImage() {
   const router = useRouter();
