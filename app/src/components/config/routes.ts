@@ -12,12 +12,17 @@ import defaultPage from "../pages/defaultPage";
 import {LangDE} from "./langDE";
 import {AppRouteInterface} from "../helper/types";
 
-export type AppRouteNames = "twitch" |
+export type AppRouteNames = "start" |
+  "twitch" |
   "podcasts" |
   "videos" |
   "socialMedia" |
   "projects" |
-  "patreon"
+  "patreon" |
+  "impressum" |
+  "datenschutz" |
+  "kontakt" |
+  "default"
 
 export type AppRoutesInterface = {
   [key in AppRouteNames | string]: AppRouteInterface

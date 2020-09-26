@@ -1,9 +1,9 @@
 import React, {CSSProperties} from "react";
 import {CompProps, SitePreviewInterface} from "../helper/types";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {useRouteLink} from "react-router-ts";
 import '../../css/SitePreview.css';
 import Column from "../grid/Column";
+import RoundButton from "../buttons/RoundButton";
 
 interface SitePreviewProps extends CompProps {
   style?: CSSProperties;
@@ -11,9 +11,6 @@ interface SitePreviewProps extends CompProps {
 }
 
 function SitePreview(props: SitePreviewProps) {
-
-  const routeLink = useRouteLink(props.content.buttonLink);
-
   return (
     <Column colCount={3} maxWidth={"initial"}>
       <div className="site-preview" style={props.style}>
@@ -26,13 +23,8 @@ function SitePreview(props: SitePreviewProps) {
         <p className={"site-preview-description"}>{props.content.description}</p>
         <div className={"site-preview-link-placeholder"}/>
         <div className={"site-preview-link-container"}>
-          <div className={"site-preview-link"}>
-            <a href={props.content.buttonLink}>
-              <button onClick={routeLink.onClick}>
-                {props.content.buttonText}
-              </button>
-            </a>
-          </div>
+          <RoundButton link={props.content.buttonLink}
+                       text={props.content.buttonText}/>
         </div>
       </div>
     </Column>
