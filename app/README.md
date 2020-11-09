@@ -2,14 +2,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-##### In the root directory of this project you can run:
-
-#### `git subtree push --prefix build origin gh-pages`
-
-Pushs the build-files to the gh-pages branch for release.
-
-----
-
 ##### In the project directory `app/`, you can run:
 
 ### `yarn start`
