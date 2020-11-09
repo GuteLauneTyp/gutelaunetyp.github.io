@@ -18,15 +18,17 @@ function NavigationItem(props: NavigationItemProps) {
   }
 
   return (
-    <div
-      className={"navigation-item"}
-      onClick={routeLink.onClick}
-      style={style}
-    >
+    <a href={props.href}>
+      <div
+        className={"navigation-item"}
+        onClick={routeLink.onClick}
+        style={style}
+      >
       <span>
         {props.children}
       </span>
-    </div>
+      </div>
+    </a>
   );
 }
 
