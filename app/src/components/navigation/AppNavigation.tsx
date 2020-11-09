@@ -15,6 +15,11 @@ function AppNavigation() {
       <NavigationItem href={routes.socialMedia.href}>{routes.socialMedia.title}</NavigationItem>
       <NavigationItem href={routes.projects.href}>{routes.projects.title}</NavigationItem>
       <NavigationItem href={routes.patreon.href}>{routes.patreon.title}</NavigationItem>
+      <div className={"navigation-item"}>
+        <span>
+          <a href={"https://github.com/GuteLauneTyp/gutelaunetyp.github.io"}>Entwicklung</a>
+        </span>
+      </div>
     </Navigation>
   );
 }
